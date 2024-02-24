@@ -66,7 +66,7 @@ dot_num = 0
 # Iterates through input image and draws the new one
 for x in range(0, width, cell_size):
     for y in range(0, height, cell_size):
-        pixel_value = img_grey.getpixel((x,y))
+        pixel_value = img_grey.getpixel((x-ceil(cell_size/2),y-ceil(cell_size/2)))
 
         brightness = pixel_value / 255
 
