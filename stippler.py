@@ -11,7 +11,7 @@ bg_color = "#000000"
 circle_color = "#ffffff"
 colorize = False # Will colorize the image instead of using the above values
 pixelate = False # Pixelates the image instead of rendering circles (requires colorize = True)
-min_dimension = 5000 # Used to scale input image
+min_dimension = 5000 # Used to scale input image. Set to 0 for no scaling
 
 # For colored terminal output
 class bcolors:
